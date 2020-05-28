@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 
     double probability_of_one_cowboy_surviving = n_trials_where_one_cowboy_survives * 1.0 / n_trials;
 
-    printf("For %lu cowboys, we have a %3.2f probability of one cowboy surviving [n_trials: %lu]\n",
+    printf("For %lu cowboys, we have a %3.5f probability of one cowboy surviving [n_trials: %lu]\n",
            n_cowboys,
            probability_of_one_cowboy_surviving,
            n_trials);
